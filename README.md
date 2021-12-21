@@ -1,10 +1,21 @@
-Objectif : reconnaitre la note jouée par une guitare.
+Absolute ear
+==============================
 
-1. Trouver de la donnée
-Enregistrer chaque note sur la guitare
-Enregistrer 1 gamme ou toutes les notes ?
+What Is This?
+-------------
+
+Reconnaissance automatique d'une note de musique jouée à la guitare. 
 
 
-2. Choisir le modèle :
-- knn
-- réseau de neurones
+Dependances
+-------------
+
+Nécéssite l'installation des bibliothèques :
+* PyAudio, permettant d'enregistrer la note
+* Scipy, pour les calculs de fft et de chargement des données .wav
+
+
+How To Use This
+---------------
+
+1. à faire : script python permettant d'utiliser les résultats des notebook.
